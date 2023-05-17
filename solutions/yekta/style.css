@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+   
+  }
+  body{
+    width: 750px;
+    margin: auto;
+  }
+  .header{
+    width:750px;
+    height:1076px;
+    background-image: url(images/mobile/image-header.jpg);
+    background-repeat: no-repeat;
+  }
+  .nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 30px;
+    font-size: 25px;
+    align-items: center;
+    padding: 30px 15px 0 15px;
+  }
+  .navRight{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 25px;
+    align-items: center;
+  }
+  .navRight_item:hover{
+    border-radius: 70px;
+    background-color: #3461FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .navRight_item:visited{
+    color: black;
+    text-decoration-line:none;
+  }
+  .navLeft{
+    font-family: 'Barlow', serif;
+
+  }
+  .navRight__item--selected{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Barlow', serif;
+    font-size: 18px;
+
+  }
+ 
+  .btn{
+    padding: 15px;
+    border-radius:20px ;
+    border: none;
+  }
+  .exp{
+    text-align: center;
+    font-size: 35px;
+    font-family: serif;
+    padding-top: 75px;
+    color: aliceblue;
+  }
+  .egg,.glass,.graphicAndDesign{
+    display:block;
+
+  }
+  .text{
+    width:750px;
+    text-align: center;
+  }
+  .leftDiv-egg,.rightDiv-stand{
+    width: 750px;
+    height: 375px;
+    font-size: 20px;
+    background-color:rgb(251, 249, 246);
+    padding: 50px;
+  }
+  .img-egg,.img-standout,.img-photography,.img-graphicDesign{
+    width:750px;
+    height: 375px;
+  }
+  .transformYourBrand,.learnMore,.standoutToTheRightAudience{
+    font-family: 'fraunces';
+  }
+  .clientTestmontials{
+
+    text-align: center;
+    width: 100%;
+    height: 538px;
+    padding-top: 50px;
+    color: hsl(232, 10%, 55%);
+    letter-spacing: .4rem;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .boxes{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .box1,.box2,.box3{
+    display: flex;
+    flex-direction: column;
+  }
+.learnMore:visited{
+  color: black;
+text-decoration: coral;
+}
+  .line{
+    border-bottom: 1px solid red;
+    width: 80px;
+  }
+  .btnn{
+    padding-left: 200px;
+  }
+  @media only screen and (min-width: 375px) {
+    .egg{
+      display: flex;
+      background-color: blue;
+    }
+    .header{
+      width:1500px;
+      height:1076px;
+      background-image: url(images/mobile/image-header.jpg);
+      background-repeat: no-repeat;
+    }
+  }
