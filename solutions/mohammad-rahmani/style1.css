@@ -23,4 +23,40 @@ h1_for_sun{
     text-align: center;
     font-size: 50px;
     padding-top: 30px;
+}potos_for_oreng{
+    width: 100%;
+}
+.photos_for_egg{
+    width: 100%;
+}
+.h1_for_transform{
+    text-align: center;
+    color: #252f3e;
+}
+.h3_for_wearw{
+    text-align: center;
+    color: #a9a8ab;
+}
+.h2_for_learn{
+    text-align: center;
+    font-size: 20px;
+    color: #373b47;
+    padding-bottom: 20px;
+}
+.photos_for_stand{
+    width: 100%;
+}
+.section3{
+    background-color:#9dd9cb;
+}
+.photos_for_graphic{
+    width: 100%;
+}
+.h1_for_grap{
+    color: #1c5447;
+    text-align: center;
+}
+.h3_for_full{
+    text-align: center;
+    color: #4b8477;
 }
