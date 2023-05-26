@@ -10,7 +10,7 @@ body{
     padding-top: 20px;
     color: white;
 }
-h1_for_sun{
+.h1_for_sun{
     display: inline;
     color: #fff;
     padding-left: 7px;
@@ -18,13 +18,15 @@ h1_for_sun{
 .bibi-list{
     color: #fff;
     padding-left: 50%;
+
 }
 .h1_for_weare{
     color: #fff;
     text-align: center;
     font-size: 50px;
     padding-top: 30px;
-}potos_for_oreng{
+}
+.potos_for_oreng{
     width: 100%;
 }
 .photos_for_egg{
