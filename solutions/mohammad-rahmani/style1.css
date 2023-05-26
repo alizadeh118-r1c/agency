@@ -1,13 +1,26 @@
 
-
-
-
-
-
-@media only scren and (max-width:700px){
-
-    body{
-
-        text-align: center;
-    }
+body{
+    border: 5px solid #D8DEE4;
+    display: flex;
+    flex-direction: column;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.section1{
+    background-color: #3CBEFE;
+    padding-top: 20px;
+}
+h1_for_sun{
+    display: inline;
+    color: #fff;
+    padding-left: 7px;
+}
+.bibi-list{
+    color: #fff;
+    padding-left: 50%;
+}
+.h1_for_weare{
+    color: #fff;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 30px;
 }
